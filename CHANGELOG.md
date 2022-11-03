@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.0.0](https://github.com/terraform-google-modules/terraform-google-lb-http/compare/v6.3.0...v7.0.0) (2022-11-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for compression_mode (#281)
+
+### Features
+
+* add support for compression_mode ([#281](https://github.com/terraform-google-modules/terraform-google-lb-http/issues/281)) ([7f30d88](https://github.com/terraform-google-modules/terraform-google-lb-http/commit/7f30d88580b289e31090e9529fc6955841892431))
+* Implement Envoy-based load balancing schemes ([#269](https://github.com/terraform-google-modules/terraform-google-lb-http/issues/269)) ([125bf68](https://github.com/terraform-google-modules/terraform-google-lb-http/commit/125bf688fe88f07f1db4b942a13139e0f63ee8ec))
+
 ## [6.3.0](https://github.com/terraform-google-modules/terraform-google-lb-http/compare/v6.2.0...v6.3.0) (2022-07-29)
 
 
